@@ -5,8 +5,8 @@ title: Home
 heroImage: /logo-light.svg
 actions:
 
-- text: Get Started
-  link: /getting-started.html
+- text: Documentation
+  link: /doc/documentation.html
   type: primary
 
 - text: Demo

@@ -11,7 +11,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     // logo: "/logo-light.svg",
 
-    navbar: ["/", "/doc/demo", "/get-started", "/doc/documentation"],
+    navbar: ["/", "/doc/demo", "/doc/documentation"],
     sidebar: {
       // "/doc/documentation": [
       //   {
