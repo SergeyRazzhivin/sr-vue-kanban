@@ -7,7 +7,7 @@ export default defineUserConfig({
   lang: "en-US",
   title: "@sr_scope/vue-kanban",
   description: "@sr_scope/vue-kanban",
-
+  base: "/sr-vue-kanban/",
   theme: defaultTheme({
     // logo: "/logo-light.svg",
 
