@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.15" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>@sr_scope/vue-kanban</title><meta name="description" content="@sr_scope/vue-kanban">
+    <link rel="preload" href="/assets/style-DAvK0ZWR.css" as="style"><link rel="stylesheet" href="/assets/style-DAvK0ZWR.css">
+    <link rel="modulepreload" href="/assets/app-C7qooByP.js"><link rel="modulepreload" href="/assets/404.html-DUzJXkT-.js">
+    <link rel="prefetch" href="/assets/get-started.html-DED2xnHN.js" as="script"><link rel="prefetch" href="/assets/index.html-DucG4Xu_.js" as="script"><link rel="prefetch" href="/assets/demo.html-NOU_a2Nf.js" as="script"><link rel="prefetch" href="/assets/documentation.html-D6msOYDc.js" as="script"><link rel="prefetch" href="/assets/index.html-vy1-PvB4.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-80dcafdd><main class="page" data-v-80dcafdd><div class="theme-default-content" vp-content data-v-80dcafdd><h1 data-v-80dcafdd>404</h1><blockquote data-v-80dcafdd>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-80dcafdd>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-C7qooByP.js" defer></script>
+  </body>
+</html>
