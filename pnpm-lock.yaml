@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@rs_scope/vue-kanban':
-        specifier: ^0.0.3
-        version: 0.0.3(@types/node@22.5.5)(rollup@4.22.4)(sortablejs@1.15.3)(typescript@5.4.2)(vite@5.3.6(@types/node@22.5.5)(lightningcss@1.27.0)(sass@1.79.3)(terser@5.33.0))(vue@3.5.7(typescript@5.4.2))
+        specifier: ^0.0.6
+        version: 0.0.6(@types/node@22.5.5)(rollup@4.22.4)(sortablejs@1.15.3)(typescript@5.4.2)(vite@5.3.6(@types/node@22.5.5)(lightningcss@1.27.0)(sass@1.79.3)(terser@5.33.0))(vue@3.5.7(typescript@5.4.2))
     devDependencies:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.15
@@ -612,8 +612,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@rs_scope/vue-kanban@0.0.3':
-    resolution: {integrity: sha512-l0D9KUwXq2y4DhlhNGC8X9I3Ona4VwWEijg1gXORpbbnI+0aGsSqt6t1wIKr++bQjJRb0yhyhhrzuHMXei7DdQ==}
+  '@rs_scope/vue-kanban@0.0.6':
+    resolution: {integrity: sha512-7aAR4ePIMCenyCfO/9Pm/YvDgi/XZ3bbMNR85VNDk5KEKuLvUnGBwTDkCJonHt/yEmOtQ86oQm/eBd2ZpDz7Vw==}
     peerDependencies:
       vue: ^3.2.45
 
@@ -4894,7 +4894,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.22.4':
     optional: true
 
-  '@rs_scope/vue-kanban@0.0.3(@types/node@22.5.5)(rollup@4.22.4)(sortablejs@1.15.3)(typescript@5.4.2)(vite@5.3.6(@types/node@22.5.5)(lightningcss@1.27.0)(sass@1.79.3)(terser@5.33.0))(vue@3.5.7(typescript@5.4.2))':
+  '@rs_scope/vue-kanban@0.0.6(@types/node@22.5.5)(rollup@4.22.4)(sortablejs@1.15.3)(typescript@5.4.2)(vite@5.3.6(@types/node@22.5.5)(lightningcss@1.27.0)(sass@1.79.3)(terser@5.33.0))(vue@3.5.7(typescript@5.4.2))':
     dependencies:
       lorem-ipsum: 2.0.8
       sass-embedded: 1.79.3

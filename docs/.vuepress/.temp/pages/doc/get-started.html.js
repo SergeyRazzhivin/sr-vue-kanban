@@ -1,0 +1,3 @@
+import comp from "C:/projects/sr_scope/vue-kanban-doc/docs/.vuepress/.temp/pages/doc/get-started.html.vue"
+const data = JSON.parse("{\"path\":\"/doc/get-started.html\",\"title\":\"Get started\",\"lang\":\"ru-RU\",\"frontmatter\":{\"lang\":\"ru-RU\",\"title\":\"Get started\",\"description\":\"Get started\"},\"headers\":[{\"level\":3,\"title\":\"Instalation\",\"slug\":\"instalation\",\"link\":\"#instalation\",\"children\":[]},{\"level\":3,\"title\":\"Data\",\"slug\":\"data\",\"link\":\"#data\",\"children\":[]},{\"level\":3,\"title\":\"Template\",\"slug\":\"template\",\"link\":\"#template\",\"children\":[]}],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"doc/get-started.md\"}")
+export { comp, data }

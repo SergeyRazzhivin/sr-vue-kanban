@@ -24,6 +24,6 @@
     "vuepress-theme-reco": "2.0.0-rc.19"
   },
   "dependencies": {
-    "@rs_scope/vue-kanban": "^0.0.3"
+    "@rs_scope/vue-kanban": "^0.0.6"
   }
 }

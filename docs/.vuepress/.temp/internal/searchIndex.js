@@ -21,6 +21,35 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Get started",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Instalation",
+        "slug": "instalation",
+        "link": "#instalation",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "Data",
+        "slug": "data",
+        "link": "#data",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "Template",
+        "slug": "template",
+        "link": "#template",
+        "children": []
+      }
+    ],
+    "path": "/doc/get-started.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/doc/",

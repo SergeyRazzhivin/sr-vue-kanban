@@ -4,17 +4,15 @@ title: Documentation
 description: Documentation
 ---
 
-```ts
+```vue
 <script setup lang="ts">
   import { LoremIpsum } from 'lorem-ipsum'
   import { SortableOptions } from 'sortablejs'
   import { computed, reactive } from 'vue'
 
   import { avatars } from '../assets/avatars'
-
-  import PrioritySvg from './shared/PrioritySvg.vue'
-  import UKanban from './UKanban.vue'
-  import { KanbanColumn, UKanbanResult } from './uKanbanTypes'
+  
+  import { KanbanColumn, UKanbanResult } from './vueKanbanTypes'
 
   const lorem = new LoremIpsum()
   function generateMockData(col: number, row: number): KanbanColumn[] {
@@ -51,14 +49,14 @@ description: Documentation
       forceFallback: true,
     }
   })
-  function onUpdate(value: UKanbanResult) {
+  function onUpdate(value: VueKanbanResult) {
     console.info('update', value)
   }
 </script>
 
 <template>
   <div class="wrapp">
-    <UKanban
+    <VueKanban
       :columns="generateMockData(5, 3)"
       :options="options"
       @update="onUpdate"
@@ -89,7 +87,7 @@ description: Documentation
           </div>
         </div>
       </template>
-    </UKanban>
+    </VueKanban>
   </div>
 </template>
 ```

@@ -9,8 +9,8 @@ actions:
   link: /doc/documentation.html
   type: primary
 
-- text: Demo
-  link: 'doc/demo.md'
+- text: Get Started
+  link: 'doc/get-started.md'
   type: secondary
 
-footer: MIT Licensed | Copyright © 2024-present UKanban Community
+footer: MIT Licensed | Copyright © 2024-present VueKanban Community
